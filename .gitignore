@@ -1,0 +1,20 @@
+# Local SQLite databases may contain personal or test data.
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Python generated files and bytecode.
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Local editor settings and Python virtual environments.
+.vscode/
+.venv/
+.venv-*/
+venv/
+
+# Temporary/editor-generated files.
+*.tmp
+*.swp
+*.bak
